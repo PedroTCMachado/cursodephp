@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+*{
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body{
+    display: flex;
+}
+
+.TelaMarketing{
+    position: absolute;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.NomeSite{
+    position: absolute;
+    top: 40px;
+    width: 654px;
+    height: 194px;
+}
+
+h2{
+    position: absolute;
+    top: 370px;
+    width: 60%;
+    height: 78px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+.BtnLoginMk{
+    border: none;
+    background: none;
+    width: 251px;
+    height: 46px;
+    outline: none;
+    margin-top: 500px;
+    outline: none;
+}
+
+.CorpoTelaMarketing{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.TeleCadastro{
+    width: 30%;
+    height: 132.4%;
+    background-color: #318acf;
+    position: absolute;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoSite img{
+    margin-top: 26px;
+    width: 305px;
+    height: 120px;
+}
+
+
+
+.CampoformCadastro{
+    width: 100%;
+    height: 100%;
+}
+
+legend{
+    margin-top: 20px;
+    margin-bottom: 26px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+.campoImput input{
+    display: flex;
+    outline: none;
+    width: 64%;
+    height: 46px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.campoImput::-webkit-input-placeholder{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #dbdbdb;
+}
+.campoImput::-moz-placeholder{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #dbdbdb;
+}
+
+.BtnAddImg{
+  margin-bottom: 36px;
+}
+
+.BtnAddImg input{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.BtnAddImg label{
+    display: flex;
+    width: 64%;
+    height: 46px;
+    border-radius: 23px;
+    background-color: #236496;
+    border: none;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+}
+
+.BtnAddImg label:hover{
+    background-color: rgb(32, 32, 32);
+}
+
+
+.BtnCadastro{
+    display: flex;
+    width: 50%;
+    height: 46px;
+    border-radius: 23px;
+    background-color: #38a1f2;
+    border: none;
+    font-size: 20px;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+}
+
+.BtnCadastro:hover{
+    background-color: rgb(32, 32, 32);
+}

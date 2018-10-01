@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Confissões da Madrugada</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/css_index.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+      <div class="logoSite">
+        <img src="./Imagens/logo_curso.png" alt="Logo do Site">
+      </div>
+
+        <div class="secaoUsuario">
+
+          <div class="iconUsuarioHeader">
+            <img src="./Imagens/icon_padrao.svg" alt="Logo do Usuários" >
+          </div>
+
+          <div class="iconSeta">
+              <img src="./Imagens/seta_icon.png" alt="Icone de Seta do Menu">
+          </div>
+
+        </div>
+
+    </header>
+
+    <section class="MenuLateral">
+
+        <h2 class="textoConfissao">Confissão:</h2>
+
+        <div class="CampoformConfissao">
+            <form>
+                <div class="campoImput">
+                    <textarea type="text" placeholder="   O que vai confessar hoje?"></textarea>
+                </div>
+
+                <input type="submit" class="BtnConfissao" value="Confessar">
+
+                <div class="BtnAddImg">
+                  <input type="file" id="BtnAddImg">
+                  <label for="BtnAddImg">Adicionar Imagem</label>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <main class="ConteudoConfissoes">
+
+        <div class="menuUsuario">
+            <a href="" class="btnPerfil">
+                <p class="textPerfil"><i class="material-icons">person</i>Perfil</p>
+            </a>
+            <div class="divisorSelecao1"></div>
+            <a href="" class="btnAmigos">
+                <p class="textAmigos"><i class="material-icons">group</i>Amigos</p>
+            </a>
+            <div class="divisorSelecao2"></div>
+            <a href="" class="btnSair">
+                <p class="textSair"><i class="material-icons">exit_to_app</i>Sair</p>
+            </a>
+            <img class="CorpoMenuUsuario" src="./Imagens/menu_usuario.svg" alt="">
+        </div>
+
+
+        <h1>Confissões</h1>
+        <div class="linhaTitulo"></div>
+
+        <div class="linhaTempoConfissoes">
+
+            <div class="cardConfissao">
+
+                <div class="infoUser">
+
+                  <div class="iconUsuario">
+                    <img src="Imagens/icon_padrao.svg" alt="Logo do Usuário no Card">
+                  </div>
+                  <h3 class="textNomeUsuario">Nome do Usuario</h3>
+                  <p class="textArrobaUsuario">@usuario</p>
+
+                  <div class="setaMenuCard">
+                    <img src="./Imagens/seta_card_icon.png" alt="Seta para o menu do card">
+                  </div>
+
+                    <div class="menuCard">
+                        <a href="" class="btnEditar">
+                            <p class="textEditar">Editar</p>
+                        </a>
+
+                        <div class="divisorSelecao"></div>
+
+                        <a href="" class="btnApagar">
+                            <p class="textApagar">Apagar</p>
+                        </a>
+
+                        <img class="CorpoMenuCard" src="./Imagens/menu_card.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="conteudoConfissao">
+                    <p class="textConfissao">Hoje acordei com uma vontade imensa de comer nutella, fui correndo pra
+                        cozinha e não tinha :(</p>
+                    <div class="imgConfissao">
+                      <img src="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>

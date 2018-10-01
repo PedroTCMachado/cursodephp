@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+*{
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Varela Round', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    background-color: #093f64;
+    box-shadow: 0px 3px 5.7px 0.3px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+}
+
+.secaoUsuario{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoSite img{
+    width: 10%;
+    height: 10%;
+    margin-left: 20px;
+}
+
+
+.iconUsuarioHeader img{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.iconSeta img{
+    margin-left: 12px;
+}
+
+.MenuLateral {
+    width: 21%;
+    height: 91.4%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 3px 5.7px 0.3px rgba(0, 0, 0, 0.15);
+    background-color: #318acf;
+    position: absolute;
+}
+
+.textoConfissao{
+    margin-top: 29px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.CampoformConfissao{
+    width: 100%;
+    height: 100%;
+}
+
+.campoImput textarea{
+    display: flex;
+    outline: none;
+    width: 84%;
+    height: 192px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 14px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    resize: none;
+}
+
+.campoImput::-webkit-input-placeholder{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    color: #dbdbdb;
+}
+.campoImput::-moz-placeholder{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    color: #dbdbdb;
+}
+
+.BtnConfissao{
+    display: flex;
+    width: 84%;
+    height: 46px;
+    border-radius: 23px;
+    background-color: #38a1f2;
+    border: none;
+    font-size: 20px;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.BtnConfissao:hover{
+    background-color: rgb(32, 32, 32);
+}
+
+.BtnAddImg input{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.BtnAddImg label{
+    display: flex;
+    width: 84%;
+    height: 46px;
+    border-radius: 23px;
+    background-color: #236496;
+    border: none;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+}
+
+.BtnAddImg label:hover{
+    background-color: rgb(32, 32, 32);
+}
+
+.ConteudoConfissoes{
+    background-color: #ececec;
+    width: 79%;
+    height: 91.4%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    overflow: scroll;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #646464;
+    margin-top: 18px;
+}
+
+.linhaTitulo{
+    width: 90%;
+    height: 2px;
+    background-color: #cacaca;
+    margin-top: 10px;
+}
+
+/* //// Menu de opçoes do Usuario ////*/
+.menuUsuario{
+    position: absolute;
+    right: 36px;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 141px;
+    height: 90px;
+}
+
+.textPerfil{
+    width: 70px;
+    height: 19px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 2px;
+    display: flex;
+}
+
+.divisorSelecao2{
+    width: 110px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 32px;
+    left: 21px;
+}
+
+.textAmigos{
+    width: 70px;
+    height: 19px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: -16px;
+    right: 0;
+    bottom: 32px;
+    display: flex;
+}
+
+.divisorSelecao1{
+    width: 110px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 68px;
+    left: 21px;
+}
+
+.textSair{
+    width: 70px;
+    height: 19px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    right: 0;
+    top: 73px;
+    display: flex;
+}
+
+.CorpoMenuUsuario{
+    width: 126px;
+    height: 178px;
+}
+/* ///////////////////////////////////*/
+
+
+/* ///////// Card do Usuário /////////*/
+.cardConfissao{
+    width: 763px;
+    height: 80%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 8px 0 rgba(0, 0, 0, 0.15);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.infoUser{
+    width: 763px;
+    height: 80px;
+}
+
+.iconUsuario img{
+    max-width: 70px;
+    max-height: 70px;
+    position: relative;
+    bottom: -10px;
+    left: 10px;
+}
+
+.textNomeUsuario{
+    width: 300px;
+    font-size: 25px;
+    text-align: left;
+    color: #4d4d4d;
+    margin-left: 90px;
+    margin-top: -60px;
+}
+
+.textArrobaUsuario{
+    width: 250px;
+    font-size: 20px;
+    color: #b5b5b5;
+    margin-left: 90px;
+}
+
+.setaMenuCard{
+    position: relative;
+    left: 710px;
+    top: -50px;
+}
+
+.textConfissao{
+    margin-top: 10px;
+    width: 594px;
+    height: 20%;
+    font-size: 30px;
+    text-align: left;
+    color: #050505;
+}
+/* //////////////////////////////////////////*/
+
+/* ///////// Menu de opçoes do Card /////////*/
+.menuCard{
+    position: relative;
+    left: 381px;
+    top: -51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 141px;
+    height: 90px;
+}
+
+.textEditar{
+    width: 70px;
+    height: 19px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 19px;
+}
+
+.divisorSelecao{
+    width: 90px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 48px;
+}
+
+.textApagar{
+    width: 70px;
+    height: 19px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    right: 0;
+    bottom: 15px;
+}
+
+.CorpoMenuCard{
+    width: 141px;
+    height: 90px;
+}
+/* //////////////////////////////////////////*/
