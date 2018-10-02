@@ -38,6 +38,7 @@ header{
     margin-left: 12px;
 }
 
+
 .MenuLateral {
     width: 21%;
     height: 91.4%;
@@ -159,6 +160,10 @@ h1{
     text-align: center;
     color: #646464;
     margin-top: 18px;
+}
+
+.btnVisualizarConfessario{
+  display: none;
 }
 
 .linhaTitulo{
@@ -357,8 +362,15 @@ h1{
 /* //////////////////////////////////////////*/
 
 @media screen and (max-width: 700px) {
-  .MenuLateral{
-    display: none;
+  .MenuLateral {
+      width: 61%;
+      height: 91.4%;
+      display: none;
+      flex-direction: column;
+      box-shadow: 0px 3px 5.7px 0.3px rgba(0, 0, 0, 0.15);
+      background-color: #318acf;
+      position: absolute;
+      z-index: 2;
   }
 
   .ConteudoConfissoes{
@@ -453,5 +465,20 @@ h1{
 
   .menuUsuario{
     right: 14px;
+  }
+
+  .btnVisualizarConfessario{
+    display: flex;
+    position: fixed;
+    top: 75px;
+    left: 320px;
+    background-color: #318acf;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 8px 0 rgba(0, 0, 0, 0.15);
   }
 }
