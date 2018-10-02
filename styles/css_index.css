@@ -173,7 +173,7 @@ h1{
     position: absolute;
     right: 36px;
     top: 15px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     width: 141px;
@@ -272,7 +272,7 @@ h1{
 }
 
 .textNomeUsuario{
-    width: 300px;
+    width: 100%;
     font-size: 25px;
     text-align: left;
     color: #4d4d4d;
@@ -281,15 +281,16 @@ h1{
 }
 
 .textArrobaUsuario{
-    width: 250px;
+    width: 100%;
     font-size: 20px;
     color: #b5b5b5;
     margin-left: 90px;
 }
 
 .setaMenuCard{
+    width: 20px;
     position: relative;
-    left: 710px;
+    left: 340px;
     top: -50px;
 }
 
@@ -308,7 +309,7 @@ h1{
     position: relative;
     left: 381px;
     top: -51px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     width: 141px;
@@ -354,3 +355,103 @@ h1{
     height: 90px;
 }
 /* //////////////////////////////////////////*/
+
+@media screen and (max-width: 700px) {
+  .MenuLateral{
+    display: none;
+  }
+
+  .ConteudoConfissoes{
+    background-color: #ececec;
+    width: 100%;
+    height: 91%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    overflow: scroll;
+  }
+
+  .cardConfissao{
+      width: 80%;
+      height: 80%;
+      border-radius: 5px;
+      background-color: #ffffff;
+      box-shadow: 0px 3px 8px 0 rgba(0, 0, 0, 0.15);
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+
+  .infoUser{
+      width: 100%;
+      height: 80px;
+  }
+
+  .iconUsuario img{
+      max-width: 70px;
+      max-height: 70px;
+  }
+
+  .textNomeUsuario{
+      width: 70%;
+      font-size: 25px;
+      text-align: left;
+      color: #4d4d4d;
+      margin-left: 90px;
+      margin-top: -60px;
+  }
+
+  .textArrobaUsuario{
+      width: 70%;
+      font-size: 20px;
+      color: #b5b5b5;
+      margin-left: 90px;
+  }
+
+  .setaMenuCard{
+      left: 30%;
+      top: -20px;
+  }
+
+  .textConfissao{
+      margin-top: 10px;
+      width: 95%;
+      height: 20%;
+      font-size: 20px;
+      text-align: left;
+      color: #050505;
+  }
+
+  .menuCard{
+      position: relative;
+      left: 30%;
+      top: -31px;
+      justify-content: center;
+      align-items: center;
+      width: 141px;
+      height: 90px;
+  }
+
+  .logoSite img{
+      width: 40%;
+      margin-left: 20px;
+  }
+
+  .iconUsuarioHeader img{
+      width: 30px;
+      height: 30px;
+      margin-top: 5px;
+  }
+
+  .iconSeta img{
+      width: 15px;
+      margin-left: 12px;
+  }
+
+  .secaoUsuario{
+    margin-right: 20px;
+  }
+
+  .menuUsuario{
+    right: 14px;
+  }
+}

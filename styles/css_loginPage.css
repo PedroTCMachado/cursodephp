@@ -12,13 +12,13 @@ body{
 }
 
 
-#imgDeFundo{
+.imgDeFundo{
     width: 100%;
     height: 100%;
     display: flex;
 }
 
-#CorpoDoCampoDeLogin {
+.CorpoDoCampoDeLogin {
     width: 36%;
     height: 554px;
     border-radius: 10px;
@@ -45,7 +45,7 @@ legend{
     color: #ffffff;
 }
 
-#CampoformLogin{
+.CampoformLogin{
     width: 100%;
     height: 100%;
 }
@@ -93,6 +93,33 @@ legend{
     outline: none;
 }
 
+.imgFundoMobile{
+  display: none;
+}
+
 .BtnLogin:hover{
     background-color: rgb(32, 32, 32);
+}
+
+@media screen and (max-width: 700px) {
+  .CorpoDoCampoDeLogin {
+      width: 80%;
+      height: 514px;
+  }
+
+  .logoSite img{
+      width: 205px;
+      height: 100px;
+  }
+
+  body{
+    background-color: #182063;
+  }
+
+  .imgDeFundo{
+    display: none;
+  }
+
+
+
 }
